@@ -1,7 +1,7 @@
 {
   "name": "file-reader",
   "version": "1.0.0",
-  "description": "",
+  "description": "Async",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -11,10 +11,18 @@
     "test": "jest --coverage --verbose",
     "test-watch": "jest --watchAll --coverage --verbose"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Hannah Ingham",
+  "license": "MIT",
   "dependencies": {
-    "eslint": "^5.6.1",
+    "eslint": "^5.10.0",
     "jest": "^23.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hingham/03-async-hi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hingham/03-async-hi/issues"
+  },
+  "homepage": "https://github.com/hingham/03-async-hi#readme"
 }
