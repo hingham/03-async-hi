@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "lint": "eslint **/.js",
+    "lint": "eslint **/*.js",
     "test": "jest --coverage --verbose",
     "test-watch": "jest --watchAll --coverage --verbose"
   },
@@ -15,6 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "eslint": "^5.10.0",
+    "fs": "0.0.1-security",
     "jest": "^23.6.0"
   },
   "repository": {
