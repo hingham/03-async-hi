@@ -1,42 +1,37 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Project Name: Async 
 
-### Author: Student/Group Name
+### Author: Hannah Ingham
 
 ### Links and Resources
-* [repo](http://xyz.com)
+* [repo](https://github.com/hingham/03-async-hi)
 * [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `index.js`
+#### `reader-fixed.js`
+#### `reader-callback.js`
+#### `reader-promises.js`
 
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+npm install eslint, jest, fs
+copy .gitignore .estlintrc 
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
+* `npm index.js`
+* Endpoint: `/`
   * Returns a JSON object with abc in it.
 * Endpoint: `/bing/zing/`
   * Returns a JSON object with xyz in it.
 
 #### Tests
-* How do you run tests?
-* What assertions were made?
+* How do you run tests? npm run test
+* What assertions were made? 
+* * asserts that there are files read
+* * asserts that a bad file will return error
 * What assertions need to be / should be made?
 
-#### UML
-Link to an image of the UML for your application and response to events

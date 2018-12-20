@@ -1,6 +1,6 @@
 'use strict';
 
-const fileReader = require('./lib/reader-fixed.js');
+const fileReader = require('./lib/reader-callbacks-array.js');
 const fs = require('fs');
 
 // Obtain and assert input of 3 files
